@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+html, body {
+  background: #f2f2f2; /* Changed background color */
+  font-family: 'Poppins', sans-serif;
+}
+
+::selection {
+  color: #fff;
+  background: #6665ee;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container .form {
+  background: #fff;
+  padding: 30px 35px;
+  border-radius: 10px; /* Increased border radius */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container .form form .form-control {
+  height: 45px; /* Increased height */
+  font-size: 16px; /* Increased font size */
+}
+
+.container .form form .forget-pass {
+  margin: 10px 0 20px 0; /* Adjusted margin */
+}
+
+.container .form form .forget-pass a {
+  font-size: 14px; /* Decreased font size */
+}
+
+.container .form form .button {
+  background: #ff7f50; /* Changed background color */
+  color: #fff;
+  font-size: 18px; /* Increased font size */
+  font-weight: 600; /* Increased font weight */
+  transition: all 0.3s ease;
+}
+
+.container .form form .button:hover {
+  background: #ff6347; /* Changed background color on hover */
+}
+
+.container .form form .link {
+  padding: 10px 0; /* Adjusted padding */
+}
+
+.container .form form .link a {
+  color: #ff7f50; /* Changed link color */
+}
+
+.container .login-form form p {
+  font-size: 16px; /* Increased font size */
+}
+
+.container .row .alert {
+  font-size: 16px; /* Increased font size */
+  color: #ff0000; /* Changed alert color */
+}
