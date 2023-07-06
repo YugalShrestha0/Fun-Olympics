@@ -174,7 +174,7 @@ if(!$uppercase || !$lowercase || !$number || !$symbol || !$length){
                 $sendgrid = new SendGrid('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');
     
                 $mail = new Mail();
-                $mail->setFrom(new From('abhiadk0330@gmail.com', 'abhiadk'));
+                $mail->setFrom(new From('yugalshrestha@gmail.com', 'yugalstha'));
                 $mail->addTo(new To($email, $name));
                 $mail->setSubject(new Subject("Password Reset Code"));
                 $mail->addContent(new PlainTextContent("Your password reset code is $code"));
